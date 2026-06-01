@@ -82,7 +82,7 @@ class MainScreen(Screen):
             self.execute_file('malware detector.py')
         else:
             instance.text = 'Malware Detector: Off'
-            # Stop or terminate the execution of malware_detector.py if necessary
+         
 
     def toggle_wifi_protector(self, instance):
         if instance.state == 'down':
