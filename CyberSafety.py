@@ -74,7 +74,7 @@ class MainScreen(Screen):
             self.execute_file('antivirus.py')
         else:
             instance.text = 'Antivirus: Off'
-            # Stop or terminate the execution of antivirus.py if necessary
+         
 
     def toggle_malware_detector(self, instance):
         if instance.state == 'down':
