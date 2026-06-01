@@ -90,7 +90,7 @@ class MainScreen(Screen):
             self.execute_file('public_wifi_protector.py')
         else:
             instance.text = 'Public WiFi Protector: Off'
-            # Stop or terminate any ongoing processes for public_wifi_protector.py
+            
 
     def execute_file(self, filename):
         script_dir = os.path.dirname(os.path.realpath(__file__))
