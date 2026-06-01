@@ -66,7 +66,7 @@ class MainScreen(Screen):
             self.execute_file('phishing.py')
         else:
             instance.text = 'Phishing Detector: Off'
-            # Stop or terminate the execution of phishing.py if necessary
+           
 
     def toggle_antivirus(self, instance):
         if instance.state == 'down':
