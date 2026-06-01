@@ -104,7 +104,7 @@ class CyberSafetyApp(App):
         Window.title = 'Cyber Safety'
 
         # Set window icon
-        Window.icon = 'app_icon.png'  # Replace 'app_icon.png' with your actual icon file path
+        Window.icon = 'app_icon.png' 
 
         # Create screen manager and add screens
         screen_manager = ScreenManager()
