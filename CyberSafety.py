@@ -58,7 +58,7 @@ class MainScreen(Screen):
             self.execute_file('firewall.py')
         else:
             instance.text = 'Firewall: Off'
-            # Stop or terminate the execution of firewall.py if necessary
+         
 
     def toggle_phishing_detector(self, instance):
         if instance.state == 'down':
