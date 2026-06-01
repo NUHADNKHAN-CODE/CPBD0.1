@@ -21,7 +21,7 @@ class MainScreen(Screen):
         layout = BoxLayout(orientation='vertical')
 
         # Load logo image
-        logo = Image(source='logo.jpg')  # Replace 'logo.png' with your actual logo file path
+        logo = Image(source='logo.jpg') 
 
         label = Label(text='Cyber Safety')
         self.firewall_button = ToggleButton(text='Firewall: Off', group='features', background_color=(0.27, 0.51, 0.71, 1))
