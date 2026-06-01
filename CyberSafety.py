@@ -20,7 +20,7 @@ class MainScreen(Screen):
 
         layout = BoxLayout(orientation='vertical')
 
-        # Load logo image
+        
         logo = Image(source='logo.jpg') 
 
         label = Label(text='Cyber Safety')
